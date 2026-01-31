@@ -32,7 +32,7 @@ export class GetInTouchComponent {
     { 
       icon: 'linkedin-in', 
       label: 'LinkedIn', 
-      url: 'https://www.linkedin.com/in/akkamreddy/',
+      url: 'https://www.linkedin.com/in/akkamreddy',
       // Unified gradient for all buttons
       bgColor: 'bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 hover:brightness-110 dark:from-cyan-500 dark:via-sky-500 dark:to-emerald-500'
     },
