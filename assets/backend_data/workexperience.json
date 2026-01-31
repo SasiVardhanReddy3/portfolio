@@ -1,13 +1,13 @@
 [
     {
       "position": "Freelance Consultant",
-      "company": "Springworks pvt ltd",
-      "time": "july 2021 - AUG 2022",
-      "location": "Mumbai, India",
+      "company": "",
+      "time": "July 2021 - AUG 2022",
+      "location": "India",
       "description": "Working as Data Analyst",
       "responsibilities": [
         "Assisted in preparing and cleaning datasets using Python and SQL to ensure accuracy and consistency.",
-         "Focused on improving data readiness and structure to assist analytics and modeling tasks"
+         "Focused on improving data readiness and structure to assist analytics and modeling tasks."
         
       ]
     },
@@ -18,8 +18,8 @@
       "location": "Koblenz, Germany",
       "description": "Seminar",
       "responsibilities": [
-      "Developed an age-structured SIR simulation model supported by an engineered data pipeline to acquire and process web-sourced public health data for parameterization",
-      "Modeled and stored cleansed data into optimized structures, enabling efficient querying and integration withthe simulation and analytical processes"
+      "Developed an age-structured SIR simulation model supported by an engineered data pipeline to acquire and process web-sourced public health data for parameterization.",
+      "Modeled and stored cleansed data into optimized structures, enabling efficient querying and integration withthe simulation and analytical processes."
       ]
     }
   ]
