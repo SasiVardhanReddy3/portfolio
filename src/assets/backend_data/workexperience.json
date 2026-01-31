@@ -1,42 +1,25 @@
 [
     {
-      "position": "Devops Werkstudent",
-      "company": "ETAS Gmbh",
-      "time": "April 2024 - Present",
-      "location": "Stuttgart, Germany",
-      "description": "Working as Devops Enginner",
+      "position": "Freelance Consultant",
+      "company": "Springworks pvt ltd",
+      "time": "july 2021 - AUG 2022",
+      "location": "Mumbai, India",
+      "description": "Working as Data Analyst",
       "responsibilities": [
-        "Creating and maintaining CI/CD pipelines using Github Actions, automating, packaging, and delivering software releases to the customers.",
-         "Automating Sphinx Documentation through CI/CD pipelines and writing Python scripts to automatically extract version data from conf file.",
-         "Creating VM's on Azure and orchestrating using Terraform and setting up Grafana for the AKS runners.",
-         "Automated the creation of the jekyll website and automated yaml data file generation for the website using github cli and action.",
-         "Wrote automated tests using pytest and beautifulsoup, covering 90% of overall tests for the pipeline and storing the snapshot of the logs in Jfrog artifactory.",
-         "Using Robot framework for writing automated test for the user tutorial and automating the entire process through pipelines.",
-         "Working in an Agile environment(SCRUM), creating stories and actively reviewing code."
+        "Assisted in preparing and cleaning datasets using Python and SQL to ensure accuracy and consistency.",
+         "Focused on improving data readiness and structure to assist analytics and modeling tasks"
+        
       ]
     },
     {
-      "position": "Software Developer",
-      "company": " Robert Bosch Gmbh",
+      "position": "Academic Seminar",
+      "company": " University of Koblenz",
       "time": "October 2023 - March 2024",
-      "location": "Stuttgart, Germany",
-      "description": "Internship",
+      "location": "Koblenz, Germany",
+      "description": "Seminar",
       "responsibilities": [
-      "Revamped the old application and integrated into new one in Angular",
-      "Implemented all the features maintaining facade architecture and thus optimizing API calls by 90% through state management.",
-      "Implemented new functionality using RxjS, establishing backend connections through NodeJS and tuned the CRUD operations at backend",
-      "Wrote unit test cases for all the components increasing test coverage up to 80% and collaborated using version control such as git."
-      ]
-    },
-    {
-      "position": "Fullstack Developer werkstudent",
-      "company": " Emano Gmbh",
-      "time": "May 2023 - September 2023",
-      "location": "Munich, Germany",
-      "description": "Worked as Fullstack Developer",
-      "responsibilities": [
-        "Worked on enterprise project as a frontend developer using Angular, Bootstrap, Angular CDK, Material.",
-        "Developed an Azure DevOps extension for dependency tracking for the company, and deployed the same on Azure Devops."
+      "Developed an age-structured SIR simulation model supported by an engineered data pipeline to acquire and process web-sourced public health data for parameterization",
+      "Modeled and stored cleansed data into optimized structures, enabling efficient querying and integration withthe simulation and analytical processes"
       ]
     }
   ]

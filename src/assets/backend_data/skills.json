@@ -1,19 +1,22 @@
 [
-    { "name": "HTML/CSS",        "category": "frontend" },
-    { "name": "JavaScript",      "category": "frontend" },
-    { "name": "TypeScript",      "category": "frontend" },
-    { "name": "Angular",         "category": "frontend" },
-    { "name": "React",           "category": "frontend" },
-    { "name": "Tailwind CSS",    "category": "frontend" },
+    { "name": "Power BI",        "category": "Analytics & Reporting" },
+    { "name": "SAP Analytics Cloud",    "category": "Analytics & Reporting" },
+    { "name": "Tableau",      "category": "Analytics & Reporting" },
+    { "name": "Data Extraction",      "category": "Data & ETL" },
+    { "name": "Data Transformation",         "category": "Data & ETL" },
+    { "name": "Data Loading",           "category": "Data & ETL" },
+    
   
-    { "name": "Node.js",         "category": "backend" },
-    { "name": "Express",         "category": "backend" },
-    { "name": "NestJS",          "category": "backend" },
-    { "name": "PostgreSQL",      "category": "backend" },
-    { "name": "MongoDB",         "category": "backend" },
+    { "name": "Microsoft Excel",         "category": "Office 365" },
+    { "name": "Microsoft PowerPoint",         "category": "Office 365" },
+    { "name": "Microsoft SharePoint",          "category": "Office 365" },
+    { "name": "MySQL",      "category": "Programming" },
+    { "name": "RDBMS",         "category": "Programming" },
+    { "name": "Python",       "category": "Programming" },
+    { "name": "SQL",          "category": "Programming" },
   
-    { "name": "Docker",          "category": "devops" },
-    { "name": "Kubernetes",      "category": "devops" },
-    { "name": "AWS",             "category": "devops" },
-    { "name": "GitHub Actions",  "category": "devops" }
+  
+    { "name": "Docker",          "category": "Other Tools" },
+    { "name": "AWS",             "category": "Other Tools" },
+    { "name": "GitHub",  "category": "Other Tools" }
   ]

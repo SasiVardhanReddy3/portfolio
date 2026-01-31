@@ -1,14 +1,17 @@
 {
     "education": [
-      { "degree": "Bachelors Computer Engineering", "school": "Mumbai University", "year": "2017– 2021", "location": "Mumbai, IN" },
-      { "degree": "Master in Computer Science", "school": "Paderborn University", "year": "2021 – 2024", "location": "Paderborn, DE" }
+      { "degree": "Bachelors Mechanical Engineering", "school": "AITS", "year": "2017– 2021", "location": "Rajampet, IN" },
+      { "degree": "Masters in Mathematical Modeling Simulation and Optimization", "school": "University of Koblenz", "year": "2022 – Present", "location": "Koblenz, DE" }
     ],
     "certificates": [
-      { "name": "Introduction to Python", "issuer": "Microsoft", "year": "2017" }
+      { "name": "Career Essentials in Data Analysis by Microsoft and Linkedin", "issuer": "Microsoft", "year": "2025" },
+      {"name":"Apache Sparke Programming with Data Bricks","issuer":"Data Bricks","year":"2023"},
+      {"name":"Complete Guide to Power BI for Data Analysts","issuer":"Microsoft Press","year":"2025"}
     ],
     "languages": [
       { "name": "English", "level": "Fluent(C1)" },
-      { "name": "Hindi", "level": "Native" },
-      {"name": "Deutsch", "level": "Intermediate(B1)" }
+      { "name": "Hindi", "level": "Intermediate(B1)" },
+      {"name": "Deutsch", "level": "Intermediate(B1)" },
+      {"name":"Telugu","level":"Native"}
     ]
   }

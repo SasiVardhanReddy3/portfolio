@@ -5,7 +5,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule,isPlatformBrowser } from '@angular/common'; 
 
 // Define the types
-type SkillCategory = 'frontend' | 'backend' | 'devops';
+type SkillCategory = 'Analytics & Reporting' | 'Data & ETL' | 'Office 365' | 'Other Tools' ;
 interface Skill { 
     category: SkillCategory; 
     name: string; 
@@ -45,9 +45,10 @@ export class SkillsComponent implements OnInit {
   // Filter keys for generating the buttons
   readonly filters = [
     { key: 'all' as FilterKey, label: 'All Skills' },
-    { key: 'frontend' as FilterKey, label: 'Frontend' },
-    { key: 'backend' as FilterKey, label: 'Backend' },
-    { key: 'devops' as FilterKey, label: 'DevOps / Cloud' },
+    { key: 'Analytics & Reporting' as FilterKey, label: 'Analytics & Reporting' },
+    { key: 'Data & ETL' as FilterKey, label: 'Data & ETL' },
+    { key: 'Office 365' as FilterKey, label: 'Office 365' },
+    { key: 'Other Tools' as FilterKey, label: 'Other Tools' },
   ];
 
   ngOnInit(): void {
@@ -74,8 +75,9 @@ export class SkillsComponent implements OnInit {
   
   // Helper function for the skill card badge
   labelFor(cat: SkillCategory): string {
-    if (cat === 'frontend') return 'Frontend';
-    if (cat === 'backend') return 'Backend';
-    return 'DevOps / Cloud';
+    if (cat === 'Analytics & Reporting') return 'Analytics & Reporting';
+    if (cat === 'Data & ETL') return 'Data & ETL';
+     if (cat === 'Office 365') return 'Office 365';
+    return 'Other Tools';
   }
 }
