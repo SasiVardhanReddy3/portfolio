@@ -14,6 +14,10 @@
     { "name": "RDBMS",         "category": "Programming" },
     { "name": "Python",       "category": "Programming" },
     { "name": "SQL",          "category": "Programming" },
+
+    { "name": "LLM Integration",          "category": "AI Skills" },
+    { "name": "RAG Agents",          "category": "AI Skills" },
+    { "name": "AI Workflows",          "category": "AI Skills" },
   
   
     { "name": "Docker",          "category": "Other Tools" },
