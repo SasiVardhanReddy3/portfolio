@@ -5,7 +5,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule,isPlatformBrowser } from '@angular/common'; 
 
 // Define the types
-type SkillCategory = 'Analytics & Reporting' | 'Data & ETL' | 'Office 365' | 'Other Tools' ;
+type SkillCategory = 'Analytics & Reporting' | 'Data & ETL' | 'Office 365' | 'AI Skills' | 'Other Tools';
 interface Skill { 
     category: SkillCategory; 
     name: string; 
@@ -48,6 +48,7 @@ export class SkillsComponent implements OnInit {
     { key: 'Analytics & Reporting' as FilterKey, label: 'Analytics & Reporting' },
     { key: 'Data & ETL' as FilterKey, label: 'Data & ETL' },
     { key: 'Office 365' as FilterKey, label: 'Office 365' },
+    { key: 'AI Skills' as FilterKey, label: 'AI Skills' },
     { key: 'Other Tools' as FilterKey, label: 'Other Tools' },
   ];
 
@@ -77,7 +78,8 @@ export class SkillsComponent implements OnInit {
   labelFor(cat: SkillCategory): string {
     if (cat === 'Analytics & Reporting') return 'Analytics & Reporting';
     if (cat === 'Data & ETL') return 'Data & ETL';
-     if (cat === 'Office 365') return 'Office 365';
+    if (cat === 'Office 365') return 'Office 365';
+    if (cat === 'AI Skills') return 'AI Skills';
     return 'Other Tools';
   }
 }
