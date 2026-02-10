@@ -10,10 +10,11 @@
     { "name": "Microsoft Excel",         "category": "Office 365" },
     { "name": "Microsoft PowerPoint",         "category": "Office 365" },
     { "name": "Microsoft SharePoint",          "category": "Office 365" },
-    { "name": "MySQL",      "category": "Programming" },
-    { "name": "RDBMS",         "category": "Programming" },
-    { "name": "Python",       "category": "Programming" },
-    { "name": "SQL",          "category": "Programming" },
+    
+    { "name": "MySQL",      "category": "Other Tools" },
+    { "name": "RDBMS",         "category": "Other Tools" },
+    { "name": "Python",       "category": "Other Tools" },
+    { "name": "SQL",          "category": "Other Tools" },
 
     { "name": "LLM Integration",          "category": "AI Skills" },
     { "name": "RAG Agents",          "category": "AI Skills" },
